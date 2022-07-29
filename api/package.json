@@ -1,0 +1,32 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha -w ./tests/**/*.spec.js"
+  },
+  "engines": {
+    "node": ">=12.18.3",
+    "npm": ">=6.14.6"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3",
+    "react": "^18.2.0",
+    "sequelize": "^6.21.3"
+  },
+  "devDependecies": {
+    "supertest-session": "^4.1.0",
+    "mocha": "^10.0.0",
+    "chai": "^4.3.6",
+    "nodemon": "^2.0.19",
+    "supertest": "^6.2.4"
+  }
+}
